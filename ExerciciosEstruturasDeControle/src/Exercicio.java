@@ -139,7 +139,6 @@ public class Exercicio {
 	
 		}
 		System.out.println("O maior numero é: " + bigger);
-		
 		sc.close();
 
 	}
