@@ -7,6 +7,8 @@ public class ValorvsReferencia {
 			int b = a;
 			b = 12;
 			System.out.println(a);
+			String ab = "aa";
+			String aa = "aa";
 			
 			
 			//referencia
@@ -16,6 +18,8 @@ public class ValorvsReferencia {
 			data4.mes = 8;
 			data4.ano = 2005;
 			data5.dia = 13;
+			System.out.println(aa == ab);
+
 			System.out.println(data4.dia);
 			
 			//referencia - metodo
