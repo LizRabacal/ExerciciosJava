@@ -11,7 +11,6 @@ public class Cachorro extends Mamifero{
 
 	@Override
 	public String mover() {
-		// TODO Auto-generated method stub
 		return "com as patas";
 	}
 	
