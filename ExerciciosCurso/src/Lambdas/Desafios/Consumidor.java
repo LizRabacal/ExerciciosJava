@@ -1,4 +1,4 @@
-package Lambdas;
+package Lambdas.Desafios;
 import java.util.Arrays;
 import java.util.function.*;
 import java.util.*;

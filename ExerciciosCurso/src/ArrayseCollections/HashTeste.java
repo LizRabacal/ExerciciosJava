@@ -2,7 +2,7 @@ package ArrayseCollections;
 
 import java.util.*;
 
-public class Hash {
+public class HashTeste {
 	public static void main(String[] args) {
 		
 		HashSet<Usuario> hash = new HashSet<>();

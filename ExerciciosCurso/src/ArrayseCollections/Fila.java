@@ -15,13 +15,13 @@ public class Fila {
 		
 		
 		//obter 1 elemento da fila
-		System.out.println(fila.peek());//retorna false se n conseguir
+		System.out.println(fila.peek());//retorna null se n conseguir
 		System.out.println(fila.element());//retorna exception se n conseguir
 
 		
 		//remover
 		System.out.println(fila.remove()); //lanca exception
-		System.out.println(fila.poll()); // retorna false
+		System.out.println(fila.poll()); // retorna null
 		System.out.println(fila);
 
 

@@ -1,6 +1,8 @@
 package Lambdas;
 import java.util.function.*;
 
+import Lambdas.Desafios.Produto;
+
 
 public class Predicado {
 	

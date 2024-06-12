@@ -1,8 +1,12 @@
-package Streams;
+package Streams.Desafios;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
+
+import Streams.Produto;
+import Streams.Utilitarios;
+
 import java.util.function.*;
 
 public class DesafioFilter {

@@ -1,4 +1,4 @@
-package Lambdas;
+package Lambdas.Desafios;
 
 import java.text.DecimalFormat;
 import java.util.function.*;

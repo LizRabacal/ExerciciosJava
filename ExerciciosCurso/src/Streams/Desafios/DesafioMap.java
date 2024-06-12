@@ -1,8 +1,11 @@
-package Streams;
+package Streams.Desafios;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
+
+import Streams.Utilitarios;
+
 import java.util.function.*;
 import java.lang.StringBuilder;
 public class DesafioMap {

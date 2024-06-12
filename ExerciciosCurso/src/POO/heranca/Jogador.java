@@ -9,7 +9,7 @@ public class Jogador {
 			this.x = x;
 			this.y = y;
 			
-		}
+	}
 		
 	
 		

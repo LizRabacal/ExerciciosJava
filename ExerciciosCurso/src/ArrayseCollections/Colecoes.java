@@ -1,6 +1,6 @@
 package ArrayseCollections;
 import java.util.*;
-public class Collections {
+public class Colecoes {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		
