@@ -10,7 +10,7 @@ public class Jogador {
 			this.y = y;
 			
 	 }
-	
+
 		
 		
 		protected boolean atacar(Jogador oponente) {

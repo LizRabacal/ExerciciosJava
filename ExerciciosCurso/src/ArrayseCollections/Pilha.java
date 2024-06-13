@@ -4,9 +4,9 @@ public class Pilha {
 	public static void main(String[] args) {
 		
 		Deque<String> pilha = new ArrayDeque<>();
-		pilha.push("luisa"); //retorna false
+		pilha.push("luisa"); //retorna false se der errado
 		pilha.push("ariana");
-		pilha.push("kayne"); //exception
+		pilha.push("kayne"); //exception se der errado
 		
 		System.out.println(pilha + "\n");
 		
