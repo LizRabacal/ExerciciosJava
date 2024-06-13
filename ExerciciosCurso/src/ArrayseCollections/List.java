@@ -1,4 +1,4 @@
-package ArrayseCollections;
+  package ArrayseCollections;
 import java.util.*;
 
 public class List {
@@ -14,8 +14,9 @@ public class List {
 
 		System.out.println(lista.get(2));
 	
-		System.out.println("Tem??? " + lista.contains(new Usuario("Liz")));
-		System.out.println(lista.remove(u2));
+		System.out.printf("Tem??? %s  \n", lista.contains(new Usuario("Liz")));
+		
+		System.out.printf("%b + \n", lista.remove(u2));
 	
 		for(Usuario p : lista) {
 			System.out.println(p);

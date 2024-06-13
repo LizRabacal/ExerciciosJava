@@ -17,13 +17,17 @@ public class Compra {
 	}
 	
 	public double valorTotal() {
-		double total = 0;
-		for(Item item : itens) {
-			
-			total+= item.produto.preco * item.qtd;
-		}
+//		double total = 0;
+//		for(Item item : itens) {
+//			
+//		total+= item.produto.preco * item.qtd;
+//		}
+//		
+//		return total;
+	
 		
-		return total;
+		//simplificando com stream API ;D
+		return itens.stream().map(p -> p.produto.preco * p.qtd).reduce((x, y) -> x+y).get();
 	}
 	
 

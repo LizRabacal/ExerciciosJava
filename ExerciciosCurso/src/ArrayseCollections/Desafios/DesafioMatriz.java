@@ -2,6 +2,7 @@ package ArrayseCollections.Desafios;
 import java.util.Scanner;
 
 public class DesafioMatriz {
+	//Desafio de ler quantidade de alunos e notas por aluno e depois obter a media de todos os alunos
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Informe a quantidade de alunos e notas por aluno respectivamente: ");
@@ -20,7 +21,7 @@ public class DesafioMatriz {
 		}
 		
 		
-		System.out.println("A média de total de todos os alunos é " + (total/(alunos*notas)));
+		System.out.printf("A média do total de todos os alunos é %.2f", (total/(alunos*notas)));
 		sc.close();
 		}
 	

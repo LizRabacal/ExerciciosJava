@@ -10,12 +10,12 @@ public class Pilha {
 		
 		System.out.println(pilha + "\n");
 		
-		System.out.println(pilha.peek()); //false
+		System.out.println(pilha.peek()); //se der errado retorna null
 		System.out.println(pilha.element() + "\n");//exception
 		
-		System.out.println(pilha.pop());//exception
+		System.out.println(pilha.pop());//se der errado retorna exception
 		System.out.println(pilha.poll());
-		System.out.println(pilha.poll());//false
+		System.out.println(pilha.poll());// se der errado retorna null
 		System.out.println(pilha.poll());
 		System.out.println(pilha.poll());
 

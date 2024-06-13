@@ -7,6 +7,7 @@ import java.util.*;
 
 public class Consumidor {
 	public static void main(String[] args) {
+		//Desafio de aplicar stream consumer
 		Consumer<Produto> nome = p -> System.out.println(p.nome);
 		
 		Produto p1 = new Produto("Caneta", 2, 0.25);

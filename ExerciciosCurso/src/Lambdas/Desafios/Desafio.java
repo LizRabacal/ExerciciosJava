@@ -5,6 +5,7 @@ import java.util.function.*;
 
 public class Desafio {
 	public static void main(String[] args) {
+		//desafio de obter valor final de um produto considerando seu frete, desconto e imposto a partir de lambdas
 		Produto p1 = new Produto("IPad", 3235.885759, 0.13);
 		Function<Produto, Double> comDesconto = p -> p.preco * (1-p.desconto);
 		UnaryOperator<Double> impostoMunincipal = p2 -> p2 >=2500 ? p2 + (p2 * 0.085) : p2;

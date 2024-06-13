@@ -11,6 +11,8 @@ import java.util.function.*;
 
 public class DesafioFilter {
 	public static void main(String[] args) {
+		//Desafio de aplicar stream para filtrar os objetos q tem o desconto maior ou igual 
+		// a 30% e frete gratis e dps printar os nomes
 		Produto p1 = new Produto("tablet", 3000, 0.35, false);
 		Produto p2 = new Produto("IPhone 16", 12000, 0.45, true);
 		Produto p3 = new Produto("TV", 4678, 0.25, true);
