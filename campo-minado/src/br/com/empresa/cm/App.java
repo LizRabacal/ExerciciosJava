@@ -8,7 +8,7 @@ import java.util.*;
 public class App {
 	
 	public static void main(String[] args) {
-		Tabuleiro tab = new Tabuleiro(10, 10, 10);
+		Tabuleiro tab = new Tabuleiro(5, 5, 5);
 		TabuleiroConsole console = new TabuleiroConsole(tab);
 		
 		console.executar();
