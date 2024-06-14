@@ -13,8 +13,6 @@ public class ConsultarPessoas1 {
 				SELECT * FROM pessoas;
 
 				""";
-
-	
 			Statement stmt = conexao.createStatement();
 			ResultSet resultado = stmt.executeQuery(str);
 			while(resultado.next()) {

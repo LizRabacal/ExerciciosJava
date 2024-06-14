@@ -7,26 +7,27 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexao {
-	private static String url = "jdbc:mysql://localhost/curso_java";
-	private final static String usuario = "root";
-	private final static String senha = "12345";
-	
-	public static Connection getConexao()  {
+
+	public static Connection getConexao() {
 		try {
-		return  DriverManager.getConnection(url, usuario, senha);
-		}catch(SQLException e) {
+			Properties prop = getProperties();
+			String url = prop.getProperty("banco.url");
+			String usuario =  prop.getProperty("banco.usuario");
+			String senha =  prop.getProperty("banco.senha");
+
+			return DriverManager.getConnection(url, usuario, senha);
+		} catch (SQLException |  IOException e) {
 			throw new RuntimeException(e);
 		}
 	}
-	
+
+	//pegando dados sensiveis externalizados
 	public static Properties getProperties() throws IOException {
 		Properties p = new Properties();
-		System.out.println(senha);
-		String caminho = "/caminho.properties";
-		 p.load(Conexao.class.getResourceAsStream(caminho));
-		 
-		 return p;
+		String caminho = "/conexao.properties";
+		p.load(Conexao.class.getResourceAsStream(caminho));
+
+		return p;
 	}
 
-	
 }
