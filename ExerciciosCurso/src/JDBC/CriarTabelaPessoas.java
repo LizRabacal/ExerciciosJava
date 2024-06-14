@@ -10,7 +10,7 @@ public class CriarTabelaPessoas {
 				nome VARCHAR(80) NOT NULL
 				);
 				
-				
+			
 				""";
 		
 		try {
