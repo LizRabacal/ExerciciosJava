@@ -7,9 +7,13 @@ import JDBC.DAO.PessoasDAO;
 
 public class DAOTeste {
 	public static void main(String[] args) {
+	
+		
 		PessoasDAO dao = new PessoasDAO();
 		StringBuilder lista = new StringBuilder();
 		dao.read().stream().map(a-> a.getCodigo() +"==>" + a.getNome()).forEach(m -> lista.append(m).append("\n"));
+		
+		
 
 
 		String resposta = JOptionPane.showInputDialog(null,

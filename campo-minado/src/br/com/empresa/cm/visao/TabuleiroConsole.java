@@ -76,7 +76,7 @@ public class TabuleiroConsole {
 			}
 
 			System.out.println("GANHOUUU!");
-		} catch (ExplosaoException e) {
+		} catch(ExplosaoException e) {
 			System.out.println("UMA BOMBA EXPLODIU!");
 		}
 	}

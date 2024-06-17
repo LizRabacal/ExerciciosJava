@@ -18,6 +18,9 @@ public class Pessoa {
 		this.codigo = codigo;
 		this.nome = nome;
 	}
+	
+	
+	
 	private int codigo;
 	private String nome;
 
